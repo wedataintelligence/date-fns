@@ -26,3 +26,13 @@ export interface WeekStartOptions {
 export interface LocalOptions {
   locale?: Locale
 }
+
+export type Unit =
+  | 'year'
+  | 'quarter'
+  | 'month'
+  | 'week'
+  | 'day'
+  | 'hour'
+  | 'minute'
+  | 'second'
