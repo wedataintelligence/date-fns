@@ -1,4 +1,20 @@
 /**
+ *  Maximum allowed time.
+ *  @constant
+ *  @type {number}
+ *  @default
+ */
+export const maxTime: number = Math.pow(10, 8) * 24 * 60 * 60 * 1000
+
+/**
+ *  Minimum allowed time.
+ *  @constant
+ *  @type {number}
+ *  @default
+ */
+export const minTime: number = -maxTime
+
+/**
  * Days In Year
  * One years equals 365.2425 days according to the formula:
  *
@@ -8,4 +24,4 @@
  *  @type {number}
  *  @default
  */
-export let yearInDays: number = 365.2425
+export const daysInYear: number = 365.2425
