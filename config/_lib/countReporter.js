@@ -14,13 +14,18 @@ function countReporter() {
           throw err
         }
 
-        var totalCount = (data || 0) + runCount
+        var totalCount = (parseInt(data, 10) || 0) + runCount
 
-        fs.writeFile(countFilename, totalCount, 'utf-8', function (err) {
-          if (err) {
-            throw err
+        fs.writeFile(
+          countFilename,
+          totalCount.toString(),
+          'utf-8',
+          function (err) {
+            if (err) {
+              throw err
+            }
           }
-        })
+        )
       }
     )
   }
