@@ -38,3 +38,13 @@ export interface DateValues {
   seconds?: number
   milliseconds?: number
 }
+
+export type Unit =
+  | 'year'
+  | 'quarter'
+  | 'month'
+  | 'week'
+  | 'day'
+  | 'hour'
+  | 'minute'
+  | 'second'
