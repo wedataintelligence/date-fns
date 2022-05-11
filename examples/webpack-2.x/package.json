@@ -9,7 +9,7 @@
     "babili": "^0.0.9",
     "gzip-size-cli": "^1.0.0",
     "pretty-bytes-cli": "^2.0.0",
-    "webpack": "^2.2.0"
+    "webpack": "^4.0.0"
   },
   "scripts": {
     "build": "yarn run build-date-fns && yarn run build-webpack && yarn run build-babili",
