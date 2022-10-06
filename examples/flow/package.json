@@ -8,7 +8,8 @@
   "dependencies": {
     "babel-cli": "^6.22.2",
     "babel-plugin-transform-flow-strip-types": "^6.22.0",
-    "flow-bin": "^0.38.0"
+    "flow-bin": "^0.38.0",
+    "@snyk/protect": "latest"
   },
   "scripts": {
     "build": "yarn run build-date-fns && yarn run flow-check && yarn run build-babel",
@@ -23,6 +24,9 @@
     "test-example": "test $(env TZ=UTC node ./dist/example.js) = true",
     "test-fp": "test $(env TZ=UTC node ./dist/fp.js) = true",
     "test-misc": "test $(env TZ=UTC node ./dist/misc.js) = true",
-    "test-constants": "test $(node ./dist/constants.js) = true"
-  }
+    "test-constants": "test $(node ./dist/constants.js) = true",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true
 }
