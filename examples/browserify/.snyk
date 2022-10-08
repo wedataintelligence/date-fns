@@ -1,0 +1,58 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - babili > babel-cli > babel-core > debug:
+        patched: '2022-10-08T23:55:31.337Z'
+    - babili > babel-cli > babel-core > babel-traverse > debug:
+        patched: '2022-10-08T23:55:31.337Z'
+    - babili > babel-cli > babel-core > babel-template > babel-traverse > debug:
+        patched: '2022-10-08T23:55:31.337Z'
+    - babili > babel-cli > babel-core > babel-helpers > babel-template > babel-traverse > debug:
+        patched: '2022-10-08T23:55:31.337Z'
+  SNYK-JS-LODASH-567746:
+    - babili > babel-cli > lodash:
+        patched: '2022-10-08T23:55:31.337Z'
+    - babili > babel-cli > babel-core > lodash:
+        patched: '2022-10-08T23:55:31.337Z'
+    - babili > babel-cli > babel-register > lodash:
+        patched: '2022-10-08T23:55:31.337Z'
+    - babili > babel-cli > babel-core > babel-types > lodash:
+        patched: '2022-10-08T23:55:31.337Z'
+    - babili > babel-cli > babel-core > babel-generator > lodash:
+        patched: '2022-10-08T23:55:31.337Z'
+    - babili > babel-cli > babel-core > babel-traverse > lodash:
+        patched: '2022-10-08T23:55:31.337Z'
+    - babili > babel-cli > babel-core > babel-template > lodash:
+        patched: '2022-10-08T23:55:31.337Z'
+    - babili > babel-cli > babel-core > babel-register > lodash:
+        patched: '2022-10-08T23:55:31.337Z'
+    - babili > babel-cli > babel-core > babel-generator > babel-types > lodash:
+        patched: '2022-10-08T23:55:31.337Z'
+    - babili > babel-cli > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2022-10-08T23:55:31.337Z'
+    - babili > babel-cli > babel-core > babel-template > babel-types > lodash:
+        patched: '2022-10-08T23:55:31.337Z'
+    - babili > babel-cli > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2022-10-08T23:55:31.337Z'
+    - babili > babel-cli > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2022-10-08T23:55:31.337Z'
+    - babili > babel-cli > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2022-10-08T23:55:31.337Z'
+    - babili > babel-cli > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2022-10-08T23:55:31.337Z'
+    - babili > babel-cli > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2022-10-08T23:55:31.337Z'
+    - babili > babel-cli > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2022-10-08T23:55:31.337Z'
+  'npm:ms:20170412':
+    - babili > babel-cli > babel-core > debug > ms:
+        patched: '2022-10-08T23:55:31.337Z'
+    - babili > babel-cli > babel-core > babel-traverse > debug > ms:
+        patched: '2022-10-08T23:55:31.337Z'
+    - babili > babel-cli > babel-core > babel-template > babel-traverse > debug > ms:
+        patched: '2022-10-08T23:55:31.337Z'
+    - babili > babel-cli > babel-core > babel-helpers > babel-template > babel-traverse > debug > ms:
+        patched: '2022-10-08T23:55:31.337Z'
