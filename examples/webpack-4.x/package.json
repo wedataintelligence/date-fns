@@ -9,7 +9,7 @@
     "gzip-size-cli": "^2.1.0",
     "uglify-es": "^3.1.1",
     "webpack": "4",
-    "webpack-cli": "^3.1.2"
+    "webpack-cli": "^3.2.2"
   },
   "scripts": {
     "build": "yarn build-date-fns && yarn build-webpack && yarn build-uglify",
