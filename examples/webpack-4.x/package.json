@@ -6,10 +6,10 @@
   "author": "Sasha Koss <koss@nocorp.me>",
   "license": "MIT",
   "dependencies": {
-    "gzip-size-cli": "^2.1.0",
+    "gzip-size-cli": "^4.0.0",
     "uglify-es": "^3.1.1",
     "webpack": "4",
-    "webpack-cli": "^3.1.2"
+    "webpack-cli": "^4.0.0"
   },
   "scripts": {
     "build": "yarn build-date-fns && yarn build-webpack && yarn build-uglify",
