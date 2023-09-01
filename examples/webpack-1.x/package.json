@@ -9,7 +9,8 @@
     "babili": "^0.0.9",
     "gzip-size-cli": "^1.0.0",
     "pretty-bytes-cli": "^2.0.0",
-    "webpack": "1"
+    "webpack": "1",
+    "@snyk/protect": "latest"
   },
   "scripts": {
     "build": "yarn run build-date-fns && yarn run build-webpack && yarn run build-babili",
@@ -25,6 +26,9 @@
     "test-example": "test $(env TZ=UTC node ./dist/example.min.js) = true",
     "test-fp": "test $(env TZ=UTC node ./dist/fp.min.js) = true",
     "test-misc": "test $(env TZ=UTC node ./dist/misc.min.js) = true",
-    "test-constants": "test $(node ./dist/constants.min.js) = true"
-  }
+    "test-constants": "test $(node ./dist/constants.min.js) = true",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true
 }
