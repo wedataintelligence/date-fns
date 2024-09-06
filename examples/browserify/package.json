@@ -7,9 +7,9 @@
   "license": "MIT",
   "dependencies": {
     "babili": "^0.0.9",
-    "browserify": "^13.3.0",
-    "gzip-size-cli": "^1.0.0",
-    "pretty-bytes-cli": "^2.0.0"
+    "browserify": "^16.5.2",
+    "gzip-size-cli": "^5.0.1",
+    "pretty-bytes-cli": "^3.0.0"
   },
   "scripts": {
     "build": "yarn run build-date-fns && yarn run build-browserify && yarn run build-babili",
