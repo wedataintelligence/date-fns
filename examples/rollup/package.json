@@ -9,7 +9,7 @@
     "babili": "^0.0.9",
     "gzip-size-cli": "^1.0.0",
     "pretty-bytes-cli": "^2.0.0",
-    "rollup": "^0.41.1",
+    "rollup": "^3.29.5",
     "rollup-plugin-commonjs": "^7.0.0",
     "rollup-plugin-node-resolve": "^2.0.0"
   },
